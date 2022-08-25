@@ -1,0 +1,47 @@
+*{margin: 0;padding: 0;}
+
+header{margin-bottom: 10px; margin-top: 10px;}
+main{height: auto;}
+
+nav{
+    height: 50px; width: 360px;
+    margin: auto;
+    /* background-color: aliceblue; */
+    display: flex;
+}
+
+
+.pageDescriptor{
+    height: 50px; width: 360px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    position: absolute;
+    z-index: -1;
+
+
+}
+
+
+.hamburger{
+    height: 50px; width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+
+
+
+
+.ham{
+    height: 3px;
+    width: 50%;
+    background-color: black;
+    margin: 3px;
+}

@@ -1,0 +1,90 @@
+.newsBar{
+    height: 400px; width: 1350px;
+    background-color: blanchedalmond;
+    margin: 0 auto 20px auto;
+    background-image: linear-gradient(to bottom, #0076BA, #3AB0FF);
+}
+
+.newBarImage{
+    height: 400px; width: 1350px;
+    background-color: antiquewhite;
+}
+
+.appointmentsBar{
+    height: 400px; width: 1350px;
+    background-image: linear-gradient(to bottom, #0076BA, #3AB0FF);
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.apptTitleBar{
+    height: 50px; width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-size: 30px;
+}
+
+.apptBar{
+    height: 350px; width: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.cardGrid{
+    height: auto; width: 1350px;
+    /* background-color: aquamarine; */
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.card{
+    height: 300px; width: 300px;
+    background-image: linear-gradient(to bottom, #0076BA, #3AB0FF);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.floatBtnBox{
+    height: 100px; width: 100px; 
+    background-color: aliceblue;
+    position: absolute;
+}
+
+.cardImg{
+    height: 250px; width: 250px;
+}
+.cardLabels{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: bolder;
+}
+
+
+
+
+@media screen and (max-width:1359px) {
+    .appointmentsBar {height: 180px;width: 360px; border-radius: 5px;}
+    .apptTitleBar{font-size: 15px;}
+    .cardGrid{width: 360px;row-gap: 10px; column-gap: 10px;}
+    .card{height: 113px;width: 113px; border-radius: 6px;}
+    .cardImg{height: 80px;width: 80px;}
+    .cardLabels{font-size: 11px;}
+    .newBarImage{height: 150px; width: 360px;}
+    .newsBar{height: 150px; width: 360px;}
+    .nav{width: auto;}
+    .pageDescriptor{width: 325px;}
+}
